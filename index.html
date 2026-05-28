@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+<div id="chatbot">
+    <div id="chatbot-header">
+        <div id="chatbot-logo">Miomus Chatbot</div>
+
+    </div>
+
+    <div id="chatbot-body">
+        <ul id="chatbot-ul"></ul>
+    </div>
+
+    <form onsubmit="return false">
+        <div id="chatbot-footer">
+            <div id="suggest-box"></div>
+            <input type="text" id="chatbot-text" placeholder="テキストを入力">
+            <input type="submit" value="送信" id="chatbot-submit">
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>
